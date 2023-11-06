@@ -17,15 +17,15 @@ int operator = cal.nextInt();
 
 switch(operator)
 {
-case '+' : System.out.println(a+b);
+case 1 : System.out.println(a+b);
            break;
-case '-' : System.out.println(a-b);
+case 2 : System.out.println(a-b);
            break;
-case '*' : System.out.println(a*b);
+case 3 : System.out.println(a*b);
            break;
-case '/' : System.out.println(a/b);
+case 4 : System.out.println(a/b);
            break;
-case '%' : System.out.println(a%b);
+case 5 : System.out.println(a%b);
            break;
 default : System.out.println("Invalid option!");
 }
