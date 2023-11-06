@@ -12,7 +12,7 @@ int a = cal.nextInt();
 System.out.println(" Enter your Second number: ");
 int b = cal.nextInt();
 
-System.out.println(" Enter your operation(+,-,*,/) ");
+System.out.println(" Enter your operation(+,-,*,/,%) ");
 int operator = cal.nextInt();
 
 switch(operator)
